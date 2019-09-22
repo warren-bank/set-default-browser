@@ -1,0 +1,8 @@
+http://fart-it.sourceforge.net/
+https://sourceforge.net/projects/fart-it/
+https://sourceforge.net/projects/fart-it/files/fart-it/1.99b/fart.exe/download
+
+http://unxutils.sourceforge.net/
+https://sourceforge.net/projects/unxutils/
+https://sourceforge.net/projects/unxutils/files/unxutils/current/UnxUtils.zip/download
+  > UnxUtils.zip\usr\local\wbin\echo.exe

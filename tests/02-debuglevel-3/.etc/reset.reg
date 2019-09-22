@@ -1,0 +1,231 @@
+Windows Registry Editor Version 5.00
+
+; ================================================
+; HKCU: url protocol associations
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\ftp]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\ftp\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https\UserChoice]
+"Progid"="htmlfile"
+
+; ================================================
+; HKCU: file extension associations
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.htm\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.html\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.shtml\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.webm\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xht\UserChoice]
+"Progid"="htmlfile"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xhtml\UserChoice]
+"Progid"="htmlfile"
+
+; ================================================
+; HKCU: file extension associations
+; ================================================
+
+[-HKEY_CURRENT_USER\Software\Classes\.htm\OpenWithProgids]
+
+[-HKEY_CURRENT_USER\Software\Classes\.htm]
+
+[-HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgids]
+
+[-HKEY_CURRENT_USER\Software\Classes\.html]
+
+[-HKEY_CURRENT_USER\Software\Classes\.shtml\OpenWithProgids]
+
+[-HKEY_CURRENT_USER\Software\Classes\.shtml]
+
+[-HKEY_CURRENT_USER\Software\Classes\.webm\OpenWithProgids]
+
+[-HKEY_CURRENT_USER\Software\Classes\.webm]
+
+[-HKEY_CURRENT_USER\Software\Classes\.xht\OpenWithProgids]
+
+[-HKEY_CURRENT_USER\Software\Classes\.xht]
+
+[-HKEY_CURRENT_USER\Software\Classes\.xhtml\OpenWithProgids]
+
+[-HKEY_CURRENT_USER\Software\Classes\.xhtml]
+
+[-HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\shell\open\command]
+
+[-HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\shell\open]
+
+[-HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\shell]
+
+[-HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\DefaultIcon]
+
+[-HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML]
+
+; ================================================
+; HKCU: ftp: protocol
+; ================================================
+
+[-HKEY_CURRENT_USER\Software\Classes\ftp\shell\open\command]
+
+[-HKEY_CURRENT_USER\Software\Classes\ftp\shell\open]
+
+[-HKEY_CURRENT_USER\Software\Classes\ftp\shell]
+
+[-HKEY_CURRENT_USER\Software\Classes\ftp\DefaultIcon]
+
+[-HKEY_CURRENT_USER\Software\Classes\ftp]
+
+; ================================================
+; HKCU: http: protocol
+; ================================================
+
+[-HKEY_CURRENT_USER\Software\Classes\http\shell\open\command]
+
+[-HKEY_CURRENT_USER\Software\Classes\http\shell\open]
+
+[-HKEY_CURRENT_USER\Software\Classes\http\shell]
+
+[-HKEY_CURRENT_USER\Software\Classes\http\DefaultIcon]
+
+[-HKEY_CURRENT_USER\Software\Classes\http]
+
+; ================================================
+; HKCU: https: protocol
+; ================================================
+
+[-HKEY_CURRENT_USER\Software\Classes\https\shell\open\command]
+
+[-HKEY_CURRENT_USER\Software\Classes\https\shell\open]
+
+[-HKEY_CURRENT_USER\Software\Classes\https\shell]
+
+[-HKEY_CURRENT_USER\Software\Classes\https\DefaultIcon]
+
+[-HKEY_CURRENT_USER\Software\Classes\https]
+
+; ================================================
+; HKLM: file extension associations
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.htm]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.htm\OpenWithProgids]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.html]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.html\OpenWithProgids]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.shtml]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.shtml\OpenWithProgids]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.webm]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.webm\OpenWithProgids]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xht]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xht\OpenWithProgids]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xhtml]
+@="htmlfile"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xhtml\OpenWithProgids]
+@="htmlfile"
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\shell\open\command]
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\shell\open]
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\shell]
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\DefaultIcon]
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML]
+
+; ================================================
+; HKLM: ftp: protocol
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\DefaultIcon]
+@="C:\\Windows\\System32\\url.dll,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell\open\command]
+@="\"C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe\" \"%1\""
+
+; ================================================
+; HKLM: http: protocol
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\DefaultIcon]
+@="C:\\Windows\\System32\\url.dll,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell\open\command]
+@="\"C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe\" -nohome"
+
+; ================================================
+; HKLM: https: protocol
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\DefaultIcon]
+@="C:\\Windows\\System32\\url.dll,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell\open\command]
+@="\"C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe\" -nohome"

@@ -1,0 +1,36 @@
+[HKEY_CURRENT_USER\Software\Classes\ftp\DefaultIcon]:
+  C:\set-default-browser\tools\echo.exe,0
+
+[HKEY_CURRENT_USER\Software\Classes\ftp\shell\open\command]:
+  "C:\set-default-browser\tools\echo.exe" \a "%1"
+
+[HKEY_CURRENT_USER\Software\Classes\http\DefaultIcon]:
+  C:\set-default-browser\tools\echo.exe,0
+
+[HKEY_CURRENT_USER\Software\Classes\http\shell\open\command]:
+  "C:\set-default-browser\tools\echo.exe" \a "%1"
+
+[HKEY_CURRENT_USER\Software\Classes\https\DefaultIcon]:
+  C:\set-default-browser\tools\echo.exe,0
+
+[HKEY_CURRENT_USER\Software\Classes\https\shell\open\command]:
+  "C:\set-default-browser\tools\echo.exe" \a "%1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\DefaultIcon]:
+  C:\set-default-browser\tools\echo.exe,0
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell\open\command]:
+  "C:\set-default-browser\tools\echo.exe" \a "%1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\DefaultIcon]:
+  C:\set-default-browser\tools\echo.exe,0
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell\open\command]:
+  "C:\set-default-browser\tools\echo.exe" \a "%1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\DefaultIcon]:
+  C:\set-default-browser\tools\echo.exe,0
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell\open\command]:
+  "C:\set-default-browser\tools\echo.exe" \a "%1"
+

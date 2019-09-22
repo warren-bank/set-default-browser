@@ -1,0 +1,36 @@
+[HKEY_CURRENT_USER\Software\Classes\ftp\DefaultIcon]:
+  C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe,0
+
+[HKEY_CURRENT_USER\Software\Classes\ftp\shell\open\command]:
+  "C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe" "%1"
+
+[HKEY_CURRENT_USER\Software\Classes\http\DefaultIcon]:
+  C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe,0
+
+[HKEY_CURRENT_USER\Software\Classes\http\shell\open\command]:
+  "C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe" "%1"
+
+[HKEY_CURRENT_USER\Software\Classes\https\DefaultIcon]:
+  C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe,0
+
+[HKEY_CURRENT_USER\Software\Classes\https\shell\open\command]:
+  "C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe" "%1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\DefaultIcon]:
+  C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe,0
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell\open\command]:
+  "C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe" "%1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\DefaultIcon]:
+  C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe,0
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell\open\command]:
+  "C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe" "%1"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\DefaultIcon]:
+  C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe,0
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell\open\command]:
+  "C:\PortableApps\Firefox\47.0.1\FirefoxPortable.exe" "%1"
+

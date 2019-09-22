@@ -1,0 +1,292 @@
+Windows Registry Editor Version 5.00
+
+; ================================================
+; HKCU: url protocol associations
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\ftp]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\ftp\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https\UserChoice]
+"Progid"="WebBrowserHTML"
+
+; ================================================
+; HKCU: file extension associations
+; ================================================
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.htm]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.htm]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.htm\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.html]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.html]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.html\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.shtml]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.shtml]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.shtml\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.webm]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.webm]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.webm\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xht]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xht]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xht\UserChoice]
+"Progid"="WebBrowserHTML"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xhtml]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xhtml]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.xhtml\UserChoice]
+"Progid"="WebBrowserHTML"
+
+; ================================================
+; HKCU: file extension associations
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Classes\.htm]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.htm\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.html]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.shtml]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.shtml\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.webm]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.webm\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.xht]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.xht\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.xhtml]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\.xhtml\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML]
+@="WebBrowser Document"
+"FriendlyTypeName"="WebBrowser Document"
+
+[HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\shell]
+@="open"
+
+[HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\WebBrowserHTML\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKCU: ftp: protocol
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Classes\ftp]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Classes\ftp\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\ftp\shell]
+@="open"
+
+[HKEY_CURRENT_USER\Software\Classes\ftp\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\ftp\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKCU: http: protocol
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Classes\http]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Classes\http\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\http\shell]
+@="open"
+
+[HKEY_CURRENT_USER\Software\Classes\http\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\http\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKCU: https: protocol
+; ================================================
+
+[HKEY_CURRENT_USER\Software\Classes\https]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Classes\https\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\https\shell]
+@="open"
+
+[HKEY_CURRENT_USER\Software\Classes\https\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\https\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKLM: file extension associations
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.htm]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.htm\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.html]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.html\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.shtml]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.shtml\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.webm]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.webm\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xht]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xht\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xhtml]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.xhtml\OpenWithProgids]
+@="WebBrowserHTML"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML]
+@="WebBrowser Document"
+"FriendlyTypeName"="WebBrowser Document"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\WebBrowserHTML\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKLM: ftp: protocol
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ftp\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKLM: http: protocol
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\http\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""
+
+; ================================================
+; HKLM: https: protocol
+; ================================================
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https]
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell\open]
+
+[HKEY_LOCAL_MACHINE\Software\Classes\https\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" \"%1\""

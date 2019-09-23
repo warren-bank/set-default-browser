@@ -1,0 +1,20 @@
+# ==============================================================================
+# https://git-scm.com/docs/gitattributes
+
+*         text=auto
+*.reg     text eol=crlf
+*.reg.tpl text eol=crlf
+*.cmd     text eol=crlf
+*.bat     text eol=crlf
+
+# ==============================================================================
+# https://github.com/github/linguist
+# https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+
+*.reg.tpl linguist-language=Windows-Registry-Entries
+
+tests/* linguist-documentation
+
+tools/* linguist-vendored
+
+# ==============================================================================
